@@ -1,0 +1,3 @@
+1. Preconditions and postconditions is used to set limitation that helps the method work normally. With preconditions and postconditions, unexpected input and output can be avoid.
+2. In the specification, balance is mentioned never to go below 0. So balance >= 0 is a class invariant for both classes.
+3. No, it does not consistent with the Liskov Substitution Principle. Because apart from what we need in BankAccount, LoggedBankAccount include concept of "login", which need more things like verifying account and password. BankAccount should be regard as a special kind of LoggedBankAccount which alsays login.

@@ -1,0 +1,1 @@
+I would apply singleton pattern and concurrency in this situation. Singleton pattern ensures that a class only has one instance, which prevents the system from creating multiple same room instances and causing logical issue. By using concurrency,  the system ensures that only one student can select the rooms at a time.

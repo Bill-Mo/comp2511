@@ -1,0 +1,2 @@
+Since Queue is a first in, first out queue ADT, no concrete methods will be implemented. Therefore it should be an interface or abstract class instead of a class.
+The dequeue function in Queue returns an E while dequeue in PriorityQueue returns an object. It should return an E object.

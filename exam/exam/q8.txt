@@ -1,0 +1,2 @@
+1.The UML diagram does not include constructors.
+3. The add device function and add satellite fucntion repeat too many times. It can be achieved by a factory.

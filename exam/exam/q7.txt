@@ -1,0 +1,1 @@
+I would like to use composite pattern. If we regard an organizational unit as a unit that compose a unit tree, the hierarchy can be easily represented. Each unit should contains a head, a manager, a series of supporting staff and other units, just like the organizational unit. The bottom case should be schools.

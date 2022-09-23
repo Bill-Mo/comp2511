@@ -1,0 +1,70 @@
+{
+    "width": 20,
+    "height": 20,
+    "entities": [
+        {
+            "x": 2,
+            "y": 2,
+            "type": "player"
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "type": "portal",
+            "colour": "blue"
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "type": "portal",
+            "colour":"blue"
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "type": "portal",
+            "colour": "red"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "type": "portal",
+            "colour":"red"
+        },
+        {
+            "x": 12,
+            "y": 0,
+            "type": "portal",
+            "colour": "yellow"
+        },
+        {
+            "x": 12,
+            "y": 5,
+            "type": "portal",
+            "colour":"yellow"
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "type": "portal",
+            "colour": "grey"
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "type": "portal",
+            "colour":"grey"
+        }
+    ],
+    "goal-condition": {
+      "goal": "AND",
+      "subgoals": [
+        {
+          "goal": "enemies"
+        },
+        {
+          "goal": "treasure"
+        }
+      ]
+    }
+  }

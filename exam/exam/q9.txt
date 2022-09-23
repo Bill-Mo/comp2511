@@ -1,0 +1,5 @@
+There are a lot of for loops and if statements in WasteBookController. Using streams can make the code simpler.
+A lot of place in WasteBookController find the Person according to P. We can create a function for this functionality.
+Checking whether to add two person as friends is a single functionality in function follow. It should be singlar out.
+
+For iterator updating, my thought is to apply observer pattern. If we create an observer for the iterator, whenever a new person is added the observer will update the iterator and we can get the correct result.

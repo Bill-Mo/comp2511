@@ -1,0 +1,1 @@
+It is a valid inheritance. Since UNSWstudent have more relaxed conditions, there is no problem for a UNSWstudent object to transfer to a student object, which obeys LSP.

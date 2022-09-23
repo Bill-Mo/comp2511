@@ -1,0 +1,92 @@
+{
+    "buildables": [
+      "shield"
+    ],
+    "entities": [
+      {
+        "isinteractable": false,
+        "x": 10,
+        "y": 0,
+        "id": "wall1",
+        "type": "wall"
+      },
+      {
+        "isinteractable": false,
+        "x": 0,
+        "y": 5,
+        "id": "wall2",
+        "type": "wall"
+      },
+      {
+        "isinteractable": false,
+        "x": 5,
+        "y": 2,
+        "id": "wall3",
+        "type": "wall"
+      },
+      {
+        "isinteractable": false,
+        "x": 0,
+        "y": 3,
+        "id": "wall4",
+        "type": "wall"
+      },
+      {
+        "isinteractable": false,
+        "x": 0,
+        "y": 4,
+        "id": "wall5",
+        "type": "wall"
+      },
+      {
+        "isinteractable": false,
+        "x": 1,
+        "y": 1,
+        "id": "player6",
+        "type": "player"
+      },
+      {
+        "isinteractable": false,
+        "x": 3,
+        "y": 10,
+        "id": "portal7",
+        "type": "portal"
+      }
+    ],
+    "dungeonName": "maze",
+    "gameMode": "peaceful",
+    "inventory": [
+      {
+        "durability": 0,
+        "id": "wood1",
+        "type": "wood"
+      },
+      {
+        "durability": 2,
+        "id": "treasure2",
+        "type": "treasure"
+      },
+      {
+        "durability": 5,
+        "id": "key3",
+        "type": "key",
+        "key": 1
+      },
+      {
+        "durability": 500,
+        "id": "wood4",
+        "type": "wood"
+      }
+    ],
+    "goal-condition": {
+        "goal": "AND",
+        "subgoals": [
+          {
+            "goal": "enemies"
+          },
+          {
+            "goal": "treasure"
+          }
+        ]
+      }
+  }

@@ -1,0 +1,1 @@
+It is an example of composition. Because the breakout rooms have no meaning without the online call. If the online call ends, the breakout rooms should disappear.

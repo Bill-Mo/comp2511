@@ -1,0 +1,17 @@
+{
+  "entities": [
+    {
+      "x": 17,
+      "y": 15,
+      "type": "player"
+    },
+    {
+      "x": 18,
+      "y": 16,
+      "type": "exit"
+    }
+  ],
+  "goal-condition": {
+    "goal": "exit"
+  }
+}
